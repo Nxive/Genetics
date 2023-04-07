@@ -1,0 +1,84 @@
+# define a function
+# for transcription
+def transcript(x):
+    # convert string into list
+    l = list(x)
+
+    for i in range(len(x)):
+
+        if l[i] == 'L':
+            l[i] = 'Leu'
+
+        elif l[i] == 'S':
+            l[i] = 'Ser'
+
+        elif l[i] == 'R':
+            l[i] = 'Arg'
+
+        elif l[i] == 'P':
+            l[i] = 'Pro'
+
+        elif l[i] == 'G':
+            l[i] = 'Gly'
+
+        elif l[i] == 'V':
+            l[i] = 'Val'
+
+        elif l[i] == 'T':
+            l[i] = 'Thr'
+
+        elif l[i] == 'F':
+            l[i] = 'Phe'
+
+        elif l[i] == 'K':
+            l[i] = 'Lys'
+
+        elif l[i] == 'E':
+            l[i] = 'Gly'
+
+        elif l[i] == 'I':
+            l[i] = 'Ile'
+
+        elif l[i] == '*':
+            l[i] = 'STOP'
+
+        elif l[i] == 'A':
+            l[i] = 'Ala'
+
+        elif l[i] == 'N':
+            l[i] = 'Asn'
+
+        elif l[i] == 'D':
+            l[i] = 'Asp'
+
+        elif l[i] == 'Y':
+            l[i] = 'Tyr'
+
+        elif l[i] == 'Q':
+            l[i] = 'Gln'
+
+        elif l[i] == 'H':
+            l[i] = 'His'
+
+        elif l[i] == 'C':
+            l[i] = 'Cys'
+
+        elif l[i] == 'W':
+            l[i] = 'Trp'
+
+        elif l[i] == 'M':
+            l[i] = 'Met'
+
+        else:
+            print('Invalid Input')
+
+    print(end="")
+    for char in l:
+        print(char, end=" ")
+
+
+# Driver code
+if __name__ == "__main__":
+    x = input("Enter Sequence: ")
+    # function calling
+    transcript(x)
