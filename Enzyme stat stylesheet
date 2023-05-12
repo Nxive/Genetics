@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+
+canvas {
+    background-color: #ffffff00;
+    align-self: center;
+}
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color:#ffffff;
+    margin: 10px;
+    text-align:center;
+}
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.Enzymes {
+    text-align: left;
+}
+.cards{
+  margin: 90px;
+  background-color: #ffffff;
+  border-color: black;
+  width: 600px;
+  height:200px;
+  border-radius: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff00;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #ffffff66;
+    border-radius: 100px;
+  }
+.labels {
+  background-color: aliceblue;
+}
