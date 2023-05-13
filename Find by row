@@ -1,0 +1,30 @@
+from openpyxl import load_workbook
+
+wb = load_workbook(filename='ALL GENES.xlsx')
+sheet = wb['Sheet1']
+
+names = ['RPA2', 'SLC17A5', 'SLC2A1', 'FMO3', 'CUX1', 'GAA', 'CASP8', 'RAD50', 'MLH1', 'PAPSS2', 'ATM', 'IL17F', 'DLC1',
+         'POMT1', 'PAH', 'POMT2', 'BCL2L11', 'MUC20', 'KLKB1', 'MMACHC', 'ATR', 'MUC21', 'ADA', 'ELOA2', 'EIF2AK3',
+         'IDUA', 'TUBA3E', 'NUP160', 'PMS2', 'GSDME', 'LMNA', 'SLC16A1', 'G6PC', 'GPC6', 'NOXO1', 'TUBA4A', 'CDH1',
+         'MSH2', 'MSH3', 'TSC2', 'RNF43', 'ZBP1', 'COMT', 'MECP2', 'BTK', 'B3GLCT', 'FLG', 'MSH6', 'NCOR1', 'SEC31A',
+         'ALG14', 'FGF5', 'GNS', 'MMUT', 'NBN', 'SLC35C1', 'MCCC1', 'DYNC1H1', 'JAG1', 'TBK1', 'LRAT', 'CAPN2', 'GTF2B',
+         'RPN2', 'SLC22A5', 'EZH2', 'STRA6', 'CALR', 'SMAD3', 'UVRAG', 'SMAD4', 'MAOA', 'PARP14', 'FADD', 'ALDOB',
+         'SLC9A6', 'SFTPB', 'CCR5', 'APBB1IP', 'CTSA', 'GATAD2B', 'TTLL3', 'CYP1B1', 'F11', 'RAD51D', 'RAD51C', 'GCK',
+         'ANTXR2', 'RICTOR', 'EP300', 'CD3G', 'HIP1', 'MAML3', 'B3GNT6', 'IFNGR1', 'HEXA', 'HEXB', 'ADAMTSL1', 'WRN',
+         'ANO5', 'KAT2A', 'KAT2B', 'ANO3', 'APRT', 'VPS37B', 'MMAA', 'SLC22A18', 'ATRX', 'XRCC2', 'ADAMTSL4', 'UGT1A1',
+         'UGT1A4', 'UGT1A5', 'UGT1A6', 'SIGMAR1', 'SPRED1', 'PARP8', 'NF1', 'TAF6', 'BRCA1', 'NUP85', 'GLB1', 'ALK',
+         'FCGR2A', 'POMC', 'NUP205', 'GALT', 'KRAS', 'MTR', 'NOD2', 'GNG2', 'CREBBP', 'BRCA2', 'AGTRAP', 'NHLRC1',
+         'CADM1', 'GNG7', 'CD320', 'BARD1', 'MUC2', 'BRIP1', 'SLC12A6', 'MUC4', 'MUTYH', 'MUC6', 'NOTCH4', 'AKAP9',
+         'NOTCH3', 'PSMB11', 'NOTCH1', 'PORCN', 'PALB2', 'TGFBR2', 'DUSP7', 'PHF21A', 'TGFBR1', 'PSEN1', 'CFTR', 'BLM',
+         'TP53', 'VCL', 'DNMT3B', 'PRKAR1A', 'H4C12', 'DYNC1LI1', 'GJA1', 'ANAPC15', 'CSF2RA', 'ABCA12', 'CYP27A1',
+         'TALDO1', 'KPNA4', 'HLA-A', 'MLKL', 'MAP2K3', 'GCKR', 'UBA52', 'ARID4B', 'SLC4A1', 'BTD', 'SLC4A4', 'TUBB8B',
+         'TCF4', 'ERBB4', 'VPS41', 'APC', 'CDC27', 'GALNS', 'MYO1C', 'SLC26A4', 'CDK4', 'ABCA4', 'VHL', 'CAV1', 'DVL1',
+         'AVPR2', 'NUP214', 'ADAMTS18', 'SLC37A4', 'NRG4', 'PCCB', 'EGF', 'NRG3', 'ABCB6', 'PCCA', 'HDAC4', 'HDAC2',
+         'RFC3', 'MUC3A', 'HDAC8', 'ETV6', 'MUC3B', 'MRE11', 'WIPF3', 'WIPF2', 'SLC25A4', 'MAN1B1', 'PTEN', 'PRKCSH',
+         'ABCC8', 'TNKS2', 'ABCC6', 'CBL', 'HSP90AA1', 'SGSH']
+
+for i in range(1, sheet.max_row + 1):
+    for j in range(sheet.max_column + 6):
+        if sheet[j].value:
+            names.append(sheet[j].value)
+            print(names[j])
