@@ -1,0 +1,320 @@
+
+sequence = input("Enter a Sequence> ")
+TTT = "TTT"
+TTC = "TTC"
+TTA = "TTA"
+TTG = "TTG"
+CTT = "CTT"
+CTC = "CTC"
+CTA = "CTA"
+CTG = "CTG"
+ATT = "ATT"
+ATC = "ATC"
+ATA = "ATA"
+ATG = "ATG"
+GTT = "GTT"
+GTC = "GTC"
+GTA = "GTA"
+GTG = "GTG"
+TCT = "TCT"
+TCC = "TCC"
+TCA = "TCA"
+TCG = "TCG"
+CCT = "CCT"
+CCC = "CCC"
+CCA = "CCA"
+CCG = "CCG"
+ACT = "ACT"
+ACC = "ACC"
+ACA = "ACA"
+ACG = "ACG"
+GCT = "GCT"
+GCC = "GCC"
+GCA = "GCA"
+GCG = "GCG"
+TAT = "TAT"
+TAC = "TAC"
+TAA = "TAA"
+TAG = "TAG"
+CAT = "CAT"
+CAC = "CAC"
+CAA = "CAA"
+CAG = "CAG"
+AAT = "AAT"
+AAC = "AAC"
+AAA = "AAA"
+AAG = "AAG"
+GAT = "GAT"
+GAC = "GAC"
+GAA = "GAA"
+GAG = "GAG"
+TGT = "TGT"
+TGC = "TGC"
+TGA = "TGA"
+TGG = "TGG"
+CGT = "CGT"
+CGC = "CGC"
+CGA = "CGA"
+CGG = "CGG"
+AGT = "AGT"
+AGC = "AGC"
+AGA = "AGA"
+AGG = "AGG"
+GGT = "GGT"
+GGC = "GGC"
+GGA = "GGA"
+GGG = "GGG"
+if TTT in sequence:
+    print("Phe")
+if TTC in sequence:
+    print("Phe")
+if TTA in sequence:
+    print("Leu")
+if TTG in sequence:
+    print("Leu")
+if CTT in sequence:
+    print("Leu")
+if CTC in sequence:
+    print("Leu")
+if CTA in sequence:
+    print("Leu")
+if CTG in sequence:
+    print("Leu")
+if ATT in sequence:
+    print("Ile")
+if ATC in sequence:
+    print("Ile")
+if ATA in sequence:
+    print("Ile")
+if ATG in sequence:
+    print("Met")
+if GTT in sequence:
+    print("Val")
+if GTC in sequence:
+    print("Val")
+if GTA in sequence:
+    print("Val")
+if GTG in sequence:
+    print("Val")
+if TCT in sequence:
+    print("Ser")
+if TCC in sequence:
+    print("Ser")
+if TCA in sequence:
+    print("Ser")
+if TCG in sequence:
+    print("Ser")
+if CCT in sequence:
+    print("Pro")
+if CCC in sequence:
+    print("Pro")
+if CCA in sequence:
+    print("Pro")
+if CCG in sequence:
+    print("Pro")
+if ACT in sequence:
+    print("Thr")
+if ACC in sequence:
+    print("Thr")
+if TTA in sequence:
+    print("Leu")
+if TTG in sequence:
+    print("Leu")
+if TCG in sequence:
+    print("Ser")
+if CCT in sequence:
+    print("Pro")
+if CCC in sequence:
+    print("Pro")
+if CCA in sequence:
+    print("Pro")
+if CCG in sequence:
+    print("Pro")
+if ACT in sequence:
+    print("Thr")
+if ACC in sequence:
+    print("Thr")
+if TTA in sequence:
+    print("Leu")
+if TTG in sequence:
+    print("Leu")
+if TCG in sequence:
+    print("Ser")
+if CCT in sequence:
+    print("Pro")
+if CCC in sequence:
+    print("Pro")
+if CCA in sequence:
+    print("Pro")
+if CCG in sequence:
+    print("Pro")
+if ACT in sequence:
+    print("Thr")
+if ACC in sequence:
+    print("Thr")
+if TTA in sequence:
+    print("Leu")
+if TTG in sequence:
+    print("Leu")
+if TCG in sequence:
+    print("Ser")
+if CCT in sequence:
+    print("Pro")
+if CCC in sequence:
+    print("Pro")
+if CCA in sequence:
+    print("Pro")
+if CCG in sequence:
+    print("Pro")
+if ACT in sequence:
+    print("Thr")
+if ACC in sequence:
+    print("Thr")
+if TTA in sequence:
+    print("Leu")
+if TTG in sequence:
+    print("Leu")
+if TCG in sequence:
+    print("Ser")
+if CCT in sequence:
+    print("Pro")
+if CCC in sequence:
+    print("Pro")
+if CCA in sequence:
+    print("Pro")
+if CCG in sequence:
+    print("Pro")
+if ACT in sequence:
+    print("Thr")
+if ACC in sequence:
+    print("Thr")
+if TTA in sequence:
+    print("Leu")
+if TTG in sequence:
+    print("Leu")
+if TCG in sequence:
+    print("Ser")
+if CCT in sequence:
+    print("Pro")
+if CCC in sequence:
+    print("Pro")
+if CCA in sequence:
+    print("Pro")
+if CCG in sequence:
+    print("Pro")
+if ACT in sequence:
+    print("Thr")
+if ACC in sequence:
+    print("Thr")
+if TTA in sequence:
+    print("Leu")
+if TTG in sequence:
+    print("Leu")
+if TCG in sequence:
+    print("Ser")
+if CCT in sequence:
+    print("Pro")
+if CCC in sequence:
+    print("Pro")
+if CCA in sequence:
+    print("Pro")
+if CCG in sequence:
+    print("Pro")
+if ACT in sequence:
+    print("Thr")
+if ACC in sequence:
+    print("Thr")
+if ACA in sequence:
+    print("Thr")
+if ACG in sequence:
+    print("Thr")
+if GCT in sequence:
+    print("Ala")
+if GCC in sequence:
+    print("Ala")
+if GCA in sequence:
+    print("Ala")
+if GCG in sequence:
+    print("Ala")
+if TAT in sequence:
+    print("Tyr")
+if TAC in sequence:
+    print("Tyr")
+if TAA in sequence:
+    print("Stop")
+if TAG in sequence:
+    print("Stop")
+if CAT in sequence:
+    print("His")
+if CAC in sequence:
+    print("His")
+if CAA in sequence:
+    print("Gln")
+if CAG in sequence:
+    print("Gln")
+if AAT in sequence:
+    print("Asn")
+if AAC in sequence:
+    print("Asn")
+if AAA in sequence:
+    print("Lys")
+if AAG in sequence:
+    print("Lys")
+if GAT in sequence:
+    print("Asp")
+if GAC in sequence:
+    print("Asp")
+if GAA in sequence:
+    print("Glu")
+
+if GAG in sequence:
+    print("Glu")
+
+if TGT in sequence:
+    print("Cys")
+
+if TGC in sequence:
+    print("Cys")
+
+if TGA in sequence:
+    print("Stop")
+
+if TGG in sequence:
+    print("Trp")
+
+if CGT in sequence:
+    print("Arg")
+
+if CGC in sequence:
+    print("Arg")
+
+if CGA in sequence:
+    print("Arg")
+
+if CGG in sequence:
+    print("Arg")
+
+if AGT in sequence:
+    print("Ser")
+
+if AGC in sequence:
+    print("Ser")
+
+if AGA in sequence:
+    print("Arg")
+
+if AGG in sequence:
+    print("Arg")
+
+if GGT in sequence:
+    print("Gly")
+
+if GGC in sequence:
+    print("Gly")
+
+if GGA in sequence:
+    print("Gly")
+
+if GGG in sequence:
+    print("Gly")
+
