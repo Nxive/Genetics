@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+
+<canvas id="Chromosome 1" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [401646,401646,257119,184907,170365,167557,147779,122110,110282,95559,87992,87992,82065,77342,76089,42766,7660,7110,7008,6512,704];
+var barColors = [];
+
+new Chart("Chromosome 1", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 1"
+    }
+  }
+});
+</script>
+
+<canvas id="Chromosome 2" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [32487,32487,20878,14796,14207,14043,11991,9580,9158,7773,7262,7262,6649,6333,6222,3621,638,614,584,544,41];
+var barColors = [];
+
+new Chart("Chromosome 2", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 2"
+    }
+  }
+});
+</script>
+<canvas id="Chromosome 3" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [26591,26590,17774,12391,12036,11682,10012,7964,7548,6495,6082,6082,5758,5225,5137,2920,541,519,484,489,60];
+var barColors = [];
+
+new Chart("Chromosome 3", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 3"
+    }
+  }
+});
+</script>
+
+
+
+<canvas id="Chromosome 4" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [23805,23807,16328,10875,11238,11025,8977,6908,7304,5901,5590,5590,5322,4926,4864,2878,424,400,402,372,34];
+var barColors = [];
+
+new Chart("Chromosome 4", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 4"
+    }
+  }
+});
+</script>
+
+
+
+<canvas id="Chromosome 5" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [22773,22773,15200,10589,10281,10169,8594,6800,6759,5598,5276,5276,4943,4586,4489,2667,434,429,404,371,25];
+var barColors = [];
+
+new Chart("Chromosome 5", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 5"
+    }
+  }
+});
+</script>
+
+
+
+<canvas id="Chromosome 6" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [27049,27050,18014,12775,11663,11397,10473,8346,7542,6634,6146,6146,5811,5317,5219,2898,609,498,523,414,44];
+var barColors = [];
+
+new Chart("Chromosome 6", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 6"
+    }
+  }
+});
+</script>
+
+
+
+<canvas id="Chromosome 7" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [21502,21502,13885,9854,9373,9245,7898,6520,6031,5155,4678,4678,4462,4164,4137,2365,369,333,350,330,37];
+var barColors = [];
+
+new Chart("Chromosome 7", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 7"
+    }
+  }
+});
+</script>
+
+
+
+<canvas id="Chromosome 8" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [19773,19772,12716,9131,8665,8509,7023,5916,5648,4622,4341,4341,4168,3779,3730,2186,333,273,319,233,6];
+var barColors = [];
+
+new Chart("Chromosome 8", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 8"
+    }
+  }
+});
+</script>
+
+
+<canvas id="Chromosome 9" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [16386,16384,10837,7647,7229,7034,6119,5006,4539,3983,3666,3666,3495,3187,3121,1678,282,290,304,247,28];
+var barColors = [];
+
+new Chart("Chromosome 9", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 9"
+    }
+  }
+});
+</script>
+
+
+
+
+<canvas id="Chromosome 10" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [20644,20644,12824,9178,8564,8404,7256,6040,5520,4762,4327,4327,4030,3883,3853,2090,340,273,319,254,16];
+var barColors = [];
+
+new Chart("Chromosome 10", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 10"
+    }
+  }
+});
+</script>
+
+
+
+
+<canvas id="Chromosome 11" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [20646,20645,12578,9491,8380,8350,7451,6232,5446,4829,4502,4502,3931,3860,3782,2076,412,419,369,413,62];
+var barColors = [];
+
+new Chart("Chromosome 11", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 11"
+    }
+  }
+});
+</script>
+
+
+
+
+<canvas id="Chromosome 12" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [18365,18364,12058,8487,7946,7729,6863,5712,5068,4413,4052,4052,3871,3580,3505,1901,307,325,320,273,15];
+var barColors = [];
+
+new Chart("Chromosome 12", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 12"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+<canvas id="Chromosome 13" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [13291,13292,9314,6324,6312,6196,5291,4076,4012,3401,3158,3158,3181,2666,2585,1670,259,305,343,274,60];
+var barColors = [];
+
+new Chart("Chromosome 13", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 13"
+    }
+  }
+});
+</script>
+
+
+
+<canvas id="Chromosome 14" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [12225,12226,8038,5662,5499,5428,4551,3702,3566,2961,2684,2683,2618,2398,2345,1482,235,211,206,168,10];
+var barColors = [];
+
+new Chart("Chromosome 14", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 14"
+    }
+  }
+});
+</script>
+
+
+
+<canvas id="Chromosome 15" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [11944,11944,7702,5501,5063,5016,4444,3616,3336,2932,2547,2547,2438,2300,2261,1350,204,212,179,188,10];
+var barColors = [];
+
+new Chart("Chromosome 15", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 15"
+    }
+  }
+});
+</script>
+
+
+
+<canvas id="Chromosome 16" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [13491,13489,8012,6161,4919,4861,4747,4266,3401,3038,2784,2784,2414,2517,2483,1257,255,228,193,209,17];
+var barColors = [];
+
+new Chart("Chromosome 16", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 16"
+    }
+  }
+});
+</script>
+
+
+
+
+<canvas id="Chromosome 17" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [13417,13415,7512,6147,4755,4741,4662,4216,3118,3034,2648,2648,2207,2320,2269,1168,241,271,220,283,46];
+var barColors = [];
+
+new Chart("Chromosome 17", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 17"
+    }
+  }
+});
+</script>
+
+
+
+<canvas id="Chromosome 18" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [10897,10895,7306,5005,4819,4735,4243,3302,3117,2703,2487,2487,2314,2209,2168,1199,212,197,208,160,11];
+var barColors = [];
+
+new Chart("Chromosome 18", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 18"
+    }
+  }
+});
+</script>
+
+
+
+<canvas id="Chromosome 19" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [11093,11094,5803,4977,3465,3389,3641,3734,2155,2250,2064,2064,1643,1894,1866,723,249,253,149,285,51];
+var barColors = [];
+
+new Chart("Chromosome 19", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 19"
+    }
+  }
+});
+</script>
+
+
+<canvas id="Chromosome 20" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [9808,9808,5827,4363,3665,3584,3399,3084,2383,2184,1931,1931,1751,1816,1810,853,163,132,120,131,13];
+var barColors = [];
+
+new Chart("Chromosome 20", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 20"
+    }
+  }
+});
+</script>
+
+
+
+
+<canvas id="Chromosome 21" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [5521,5520,3514,2490,2106,2063,2061,1658,1476,1308,1168,1168,1152,1011,1012,549,99,76,66,77,1];
+var barColors = [];
+
+new Chart("Chromosome 21", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 21"
+    }
+  }
+});
+</script>
+
+
+
+
+
+<canvas id="Chromosome 22" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [6754,6753,3358,2867,1978,1935,2063,2148,1261,1297,1125,1125,965,1059,1061,390,104,77,71,85,6];
+var barColors = [];
+
+new Chart("Chromosome 22", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome 22"
+    }
+  }
+});
+</script>
+
+
+
+
+<canvas id="Chromosome X" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [8885,8886,7258,4890,4395,4343,4507,3050,2840,2673,2421,2421,2641,1924,1871,1406,381,280,427,259,80];
+var barColors = [];
+
+new Chart("Chromosome X", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome X"
+    }
+  }
+});
+</script>
+
+
+
+
+<canvas id="Chromosome MT" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["G", "P","L","R","K","F","S","A","N","E","T","V","*","Q","W","I","D","C","Y","H","M"];
+var yValues = [11111, 11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111,11111];
+var barColors = [];
+
+new Chart("Chromosome MT", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Chromosome MT"
+    }
+  }
+});
+</script>
+</body>
+</html>
