@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+
+<canvas id="Met" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1", "2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [704, 41,60,34,25,44,37,6,28,16,62,15,60,10,10,17,46,11,51,13,1,6,80];
+var barColors = [];
+
+new Chart("Met", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Met"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+<canvas id="His" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [6512,544,489,372,371,414,330,233,247,254,412,273,274,168,188,209,283,160,285,131,77,85,259];
+var barColors = [];
+
+new Chart("His", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "His"
+    }
+  }
+});
+</script>
+
+<canvas id="Tyrosine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [7008,584,484,402,404,523,350,319,304,319,369,320,343,206,179,193,220,208,149,120,66,71,427];
+var barColors = [];
+
+new Chart("Tyrosine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Tyrosine"
+    }
+  }
+});
+</script>
+
+<canvas id="Cysteine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [7110,614,519,400,429,498,333,273,290,273,419,325,305,211,212,228,271,197,253,132,76,77,280];
+var barColors = [];
+
+new Chart("Cysteine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Cysteine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+<canvas id="Aspartic Acid" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [7660,638,541,424,434,609,369,333,282,340,412,307,259,235,204,255,241,212,249,163,99,104,381];
+var barColors = [];
+
+new Chart("Aspartic Acid", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Aspartic Acid"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+<canvas id="Isoleucine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [42766,3621,2920,2878,2667,2898,2365,2186,1678,2090,2076,1901,1670,1482,1350,1257,1168,1199,723,853,549,390,1406];
+var barColors = [];
+
+new Chart("Isoleucine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Isoleucine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+<canvas id="Tryptophan" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [76089,6222,5137,4864,4489,5219,4137,3730,3121,3853,3782,3505,2585,2345,2261,2483,2269,2168,1866,1810,1012,1061,1871];
+var barColors = [];
+
+new Chart("Tryptophan", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Tryptophan"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+<canvas id="Glutamine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [77342,6333,5225,4926,4586,5317,4164,3779,3187,3883,3860,3580,2666,2398,2300,2517,2320,2209,1894,1816,1011,1059,1924];
+var barColors = [];
+
+new Chart("Glutamine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Glutamine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+<canvas id="Stop" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [82065,6649,5758,5322,4943,5811,4462,4168,3495,4030,3931,3871,3181,2618,2438,2414,2207,2314,1643,1751,1152,965,2641];
+var barColors = [];
+
+new Chart("Stop", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Stop"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+<canvas id="Valine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [87992,7262,6082,5590,5276,6146,4678,4341,3666,4327,4502,4052,3158,2683,2547,2784,2648,2487,2064,1931,1168,1125,2421];
+var barColors = [];
+
+new Chart("Valine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Valine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<canvas id="Threonine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [87992,7262,6082,5590,5276,6146,4678,4341,3666,4327,4502,4052,3158,2684,2547,2784,2648,2487,2064,1931,1168,1125,2421];
+var barColors = [];
+
+new Chart("Threonine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Threonine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+<canvas id="Glutamic Acid" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [95559,7773,6495,5901,5598,6634,5155,4622,3983,4762,4829,4413,3401,2961,2932,3038,3034,2703,2250,2184,1308,1297,2673];
+var barColors = [];
+
+new Chart("Glutamic Acid", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Glutamic Acid"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+<canvas id="Asparagine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [110282,9158,7548,7304,6759,7542,6031,5648,4539,5520,5446,5068,4012,3566,3336,3401,3118,3117,2155,2383,1476,1261,2840];
+var barColors = [];
+
+new Chart("Asparagine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Asparagine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+<canvas id="Alanine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [122110,9580,7964,6908,6800,8346,6520,5916,5006,6040,6232,5712,4076,3702,3616,4266,4216,3302,3734,3084,1658,2148,3050];
+var barColors = [];
+
+new Chart("Alanine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Alanine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+<canvas id="Serine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [147779,11991,10012,8977,8594,10473,7898,7023,6119,7256,7451,6863,5291,4551,4444,4747,4662,4243,3641,3399,2061,2063,4507];
+var barColors = [];
+
+new Chart("Serine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Serine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+<canvas id="Phenylalanine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [167557,14043,11682,11025,10169,11397,9245,8509,7034,8404,8350,7729,6196,5428,5016,4861,4741,4735,3389,3584,2063,1935,4343];
+var barColors = [];
+
+new Chart("Phenylalanine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Phenylalanine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+<canvas id="Lysine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [170365,14207,12036,11238,10281,11663,9373,8665,7229,8564,8380,7946,6312,5499,5063,4919,4755,4819,3465,3665,2106,1978,4395];
+var barColors = [];
+
+new Chart("Lysine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Lysine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+<canvas id="Arginine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [184907,14796,12391,10875,10589,12775,9854,9131,7647,9178,9491,8487,6324,5662,5501,6161,6147,5005,4977,4363,2490,2867,4890];
+var barColors = [];
+
+new Chart("Arginine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Arginine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+<canvas id="Leucine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [257119,20878,17774,16328,15200,18014,13885,12716,10837,12824,12578,12058,9314,8038,7702,8012,7512,7306,5803,5827,3514,3358,7258];
+var barColors = [];
+
+new Chart("Leucine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Leucine"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+<canvas id="Proline" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [401646,32487,26590,23807,22773,27050,21502,19772,16384,20644,20645,18364,13292,12226,11944,13489,13415,10895,11094,9808,5520,6753,8886];
+var barColors = [];
+
+new Chart("Proline", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Proline"
+    }
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<canvas id="Glycine" style="width:100%;max-width:100%"></canvas>
+
+<script>
+var xValues = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","X"];
+var yValues = [401646,32487,26591,23805,22773,27049,21502,19773,16386,20644,20646,18365,13291,12225,11944,13491,13417,10897,11093,9808,5521,6754,8885];
+var barColors = [];
+
+new Chart("Glycine", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Glycine"
+    }
+  }
+});
+</script>
+
+</body>
+</html>
